@@ -14,5 +14,5 @@ setup(
     long_description_content_type="text/markdown"
 )
 
-# python setup.py sdist bdist_wheel
+# python -m build
 # twine upload dist/*
