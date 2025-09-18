@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="len-sentence",
-    version="0.1.0",
+    version="0.1.1",
     author="JackyHe398",
     author_email="hekinghung@gmail.com",
     description="Length of sentence utilities for counting the number of words/characters in a sentence",
