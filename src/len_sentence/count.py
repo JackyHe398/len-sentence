@@ -1,4 +1,4 @@
-from .lang_list import sqaure_characters, special_characters, special_languages
+from .lang_list import NO_SPACE, special_characters, special_languages, ANCIENT_CIVILIZATION_NO_SPACE
 import re
 
 def count_sentence(sentence:str,
@@ -21,7 +21,7 @@ def count_sentence(sentence:str,
         special_chara_length = len(re.findall(special_character, sentence, flags=re.I))
         sentence = re.sub(special_character, "", sentence)
 
-    if lang_code in sqaure_characters:
+    if lang_code in NO_SPACE or lang_code in ANCIENT_CIVILIZATION_NO_SPACE:
         sentence_length = len(sentence)
     elif lang_code in special_languages:
         sentence_length = sentence.count(special_languages[lang_code]) + 1
