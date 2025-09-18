@@ -11,7 +11,13 @@ ANCIENT_CIVILIZATION_NO_SPACE = [
                     "Xpeo", "Xsux", "Zanb" # ancient civilization
                      ]
 
+NO_SPACE_LANGUAGE = [
+                    "zh", "ko", "ja",
+                     "th", "km", "lo", "my", "vi",
+                    ]
+                    
 special_languages = {"Tibt": "་",
+                     "bo": "་",
                      "Java": "꧈꧉꧊꧋"}
 
 special_characters = [r"(\d,*)[\d]+\.*[\d]*"]
