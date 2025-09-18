@@ -30,7 +30,7 @@ Count the number of words or characters in a sentence based on the language scri
 
 **Parameters:**
 - `sentence` (str): The sentence to count
-- `lang_code` (str): 4-letter ISO15924 script code
+- `lang_code` (str): 4-letter ISO15924 script code, limited support for 2 letters ISO639-1 code
 
 **Returns:**
 - `int`: Number of words or characters in the sentence
